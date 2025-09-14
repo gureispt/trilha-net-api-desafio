@@ -27,5 +27,19 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
-  }
+  },
+  "commands": [
+    {
+      "type": "command",
+      "details": {
+        "key": "MSBuild.buildSelected"
+      }
+    },
+    {
+      "type": "command",
+      "details": {
+        "key": "MSBuild.buildCurrentSolution"
+      }
+    }
+  ]
 }
